@@ -34,9 +34,9 @@ pip install protobuf
 ```bash
 # hymba requires flash_attn.
 # But, Ubuntu 20.04 version is not good at flash_attn.
-# You have to check if you have gcc-13.
+# You have to check if you have gcc-13 for flash_attn installation.
 # If you don't have it, you need to install gcc-13 (sudo apt install gcc-13).
-# And you need to install flash_attn through git repo.
+# And you need to install flash_attn through its git repository.
 
 git clone https://github.com/Dao-AILab/flash-attention.git
 cd flash-attention
@@ -46,4 +46,5 @@ python setup.py install
 ```bash
 python main_test.py
 ```
+
 
