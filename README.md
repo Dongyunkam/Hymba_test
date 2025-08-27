@@ -27,7 +27,7 @@ pip install transformers==4.43
 ```bash
 # You need to install some libraries.
 # If there is some error during mamba-ssm installation, you can check <https://pypi.org/project/mamba-ssm/>.
-pip install casual-conv1d mamba-ssm einops
+pip install causal-conv1d mamba-ssm einops
 pip install sentencepiece
 pip install protobuf
 ```
@@ -47,6 +47,7 @@ python setup.py install
 ```bash
 python main_test.py
 ```
+
 
 
 
