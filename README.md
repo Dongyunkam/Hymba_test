@@ -20,6 +20,7 @@ conda activate Hymba_test
 ```bash
 # hymba uses old transformer libaray (for class DynamicCache ...).
 # transformers 4.5x doesn't work for hymba.
+pip install torch
 pip install transformers==4.43
 ```
 
@@ -46,5 +47,6 @@ python setup.py install
 ```bash
 python main_test.py
 ```
+
 
 
